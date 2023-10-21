@@ -10,6 +10,7 @@
 #include <iostream>
 #include <sstream>
 #include <iomanip>
+#include <cstdint>
 
 void convertResolution( unsigned &horizontal, unsigned &vertical, const Resolution resolution ) {
 	switch (resolution) {
